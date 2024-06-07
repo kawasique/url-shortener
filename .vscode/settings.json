@@ -1,0 +1,9 @@
+{
+  "pylint.path": ["pylint"],
+  "pylint.args": [
+    "--disable=C0111,W0702,C0415",
+    "--load-plugins",
+    "pylint_django",
+    "--django-settings-module=backend.settings"
+  ]
+}
